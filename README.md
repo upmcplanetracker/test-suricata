@@ -33,9 +33,9 @@ Suricata monitors network traffic, and EveBox provides a user-friendly interface
     sudo ufw reload
     ```
 
-## ✅ Test IPS
+## ✅ Test IDS
 
-Run the command below to trigger a harmless IPS event.  The event should show up in the alarms shortly thereafter.
+Run the command below to trigger a harmless IDS event.  The event should show up in the alarms shortly thereafter.
 ```sh
 curl http://testmyids.com
 ```
