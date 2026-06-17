@@ -1,7 +1,9 @@
 Suricata + EveBox Docker Compose Setup
 ======================================
 
-Quickly deploy **Suricata** (Network Intrusion Detection System) and **EveBox** (web-based event viewer) using **Docker Compose**. **Suricata** monitors your network traffic, **EveBox** displays the alerts in a friendly UI. This was developer to allow people to test out **Suricata**, not as a reliable method to spin up a production **Suricata** instance. For that, refer to the **Suricata** documentation.
+Quickly deploy **Suricata** (Network Intrusion Detection System) and **EveBox** (web-based event viewer) using **Docker Compose**. **Suricata** monitors your network traffic, **EveBox** displays the alerts in a friendly UI.
+
+This was developed to allow people to test out **Suricata**, not as a reliable method to spin up a production **Suricata** instance. For that, refer to the **Suricata** documentation.
 
 **⚠️ Important Prerequisites**
 
