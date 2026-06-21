@@ -1,6 +1,6 @@
 services:
   suricata:
-    image: jasonish/suricata:7.0          # Pinned to a stable major version
+    image: jasonish/suricata:7.0
     container_name: suricata_test
     restart: unless-stopped
     network_mode: "host"
@@ -12,10 +12,10 @@ services:
       - suricata-logs:/var/log/suricata
       - suricata-rules:/var/lib/suricata
       - suricata-config:/etc/suricata
-    command: -i ${MONITOR_IFACE}           # Set in .env file
+    command: -i ${MONITOR_IFACE}
 
   evebox:
-    image: jasonish/evebox:0.18            # Pinned to a specific release
+    image: jasonish/evebox:0.18
     container_name: evebox_ui
     restart: unless-stopped
     ports:
